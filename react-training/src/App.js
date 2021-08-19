@@ -7,7 +7,7 @@ function App() {
         <div className="jumbotron">
             <h1 className="display-3">App Name</h1>
         </div>
-        <Card></Card>
+        <Card />
     </div>
 
   );
