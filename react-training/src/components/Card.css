@@ -1,5 +1,9 @@
 .cardStyle {
     background-color: lightsteelblue;
     width: 18rem;
+
 }
 
+input{
+    margin: 10px 0px 10px 140px;
+}
