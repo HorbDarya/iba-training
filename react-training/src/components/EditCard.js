@@ -20,7 +20,7 @@ function EditCard(props) {
             setPrevTitle(props.currentTitle)
         }
         props.setCurrentTitle(event.target.value);
-        setTextCount(titleCount + 1)
+        setTitleCount(titleCount + 1)
     }
 
     const changeText = (event) => {
