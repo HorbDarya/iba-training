@@ -1,9 +1,43 @@
 .cardStyle {
-    background-color: lightsteelblue;
     width: 18rem;
+}
+input[type="checkbox"] {
+    margin: 10px 0px 10px 7px;
+}
+
+.editButton {
+    margin: 2px 0px 10px 15px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.saveButton{
+    border: none;
+    background-color: white;
+    margin: 2px 0px 10px 8px;
+}
+
+.closeButton{
+    border: none;
+    background-color: white;
 
 }
 
-input{
-    margin: 10px 0px 10px 140px;
+input, textarea {
+    outline: none;
+    border: solid 1px #f2f2f2;
+}
+
+.cardTitle{
+    display: flex;
+
+}
+
+.title{
+    width: 175px;
+}
+
+.card.marked{
+    background-color: lavender;
 }
