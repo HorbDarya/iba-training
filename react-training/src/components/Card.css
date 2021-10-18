@@ -1,7 +1,8 @@
 .cardStyle {
     width: 18rem;
+    margin: 10px 0px 10px -30px;
 }
-input[type="checkbox"] {
+input[id="changeColour"] {
     margin: 10px 0px 10px 7px;
 }
 
@@ -41,3 +42,8 @@ input, textarea {
 .card.marked{
     background-color: lavender;
 }
+
+.non-visible{
+    visibility: hidden;
+}
+
